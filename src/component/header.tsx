@@ -12,12 +12,15 @@ export default function Header() {
           <LogoText />
         </div>
       </Link>
-      <div className="flex justify-between items-center gap-2">
-        <div className="px-2.5">Обо мне</div>
-        <div className="px-2.5">Проекты</div>
-        <div className="px-2.5">Услуги</div>
-        <div className="px-2.5">Блог</div>
-        <div className="px-2.5">Контакты</div>
+      <div className="flex items-center gap-12">
+        <div className="flex justify-between items-center gap-2">
+          <div className="px-2.5">Обо мне</div>
+          <div className="px-2.5">Проекты</div>
+          <div className="px-2.5">Услуги</div>
+          <div className="px-2.5">Блог</div>
+          <div className="px-2.5">Контакты</div>
+        </div>
+        <div className="p-7">EN</div>
       </div>
     </header>
   );
