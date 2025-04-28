@@ -1,3 +1,5 @@
+import HeroSection from "../block/heroSection";
+
 export default function Home() {
-  return <div>Home</div>;
+  return <HeroSection />;
 }
