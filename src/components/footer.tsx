@@ -7,7 +7,7 @@ import SubstractIcon from "@/assets/subtract-Icon.svg";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between w-full h-40 items-center p-7">
+    <div className="flex justify-between w-full h-40 items-center p-7 bg-secondary">
       <div className="text-7xl py-7">Перейдем на “мы”? ;)</div>
       <div className="flex text-xs gap-12 self-start opacity-40">
         <div>
