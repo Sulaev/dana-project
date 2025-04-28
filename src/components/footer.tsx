@@ -8,41 +8,41 @@ import SubstractIcon from "@/assets/subtract-Icon.svg";
 export default function Footer() {
   return (
     <div className="flex justify-between w-full h-40 items-center p-7 bg-secondary">
-      <div className="text-7xl py-7">Перейдем на “мы”? ;)</div>
+      <div className="flex self-start text-7xl">Перейдем на “мы”? ;)</div>
       <div className="flex text-xs gap-12 self-start opacity-40">
-        <div>
+        <div className="flex flex-col gap-1.5">
           <Link href={"/"}>
-            <div className="py-1.5">Обо мне</div>
+            <div>Обо мне</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Проекты</div>
+            <div>Проекты</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Услуги</div>
+            <div>Услуги</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Блог</div>
+            <div>Блог</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Контакты</div>
+            <div>Контакты</div>
           </Link>
         </div>
-        <div>
+        <div className="flex flex-col gap-1.5">
           <Link href={"/"}>
-            <div className="py-1.5">Фирменный стиль</div>
+            <div>Фирменный стиль</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Нейминг</div>
+            <div>Нейминг</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Логотип</div>
+            <div>Логотип</div>
           </Link>
           <Link href={"/"}>
-            <div className="py-1.5">Полиграфия</div>
+            <div>Полиграфия</div>
           </Link>
         </div>
       </div>
-      <div className="flex gap-1.5">
+      <div className="flex gap-1.5 self-start">
         <Link href={"/"}>
           <BehanceIcon />
         </Link>
