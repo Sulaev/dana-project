@@ -3,7 +3,7 @@ import IntroImage from "@/assets/intro.png";
 
 export default function HeroSection() {
   return (
-    <div className="">
+    <div>
       <div className="py-10">
         <Image
           src={IntroImage}
@@ -14,7 +14,7 @@ export default function HeroSection() {
           priority={true}
         />
       </div>
-      <div className="mx-auto px-4 flex flex-col py-10 gap-11">
+      <div className="mx-auto px-4 flex flex-col py-10 gap-11 w-full">
         <div className="flex justify-start ">
           <h1 className="text-7xl font-bold mb-4 leading-tight">
             Встречают по одежке,
