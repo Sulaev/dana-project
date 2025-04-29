@@ -30,7 +30,7 @@ export default function ServicesSection() {
         {ServicesList.map((tag) => {
           return (
             <Link href={tag.link} key={tag.tittle}>
-              <div className="text-4xl border-b border-accent pb-7 flex justify-between items-center">
+              <div className="text-4xl border-b-3 border-accent pb-7 flex justify-between items-center">
                 {tag.tittle}
                 <Arrow />
               </div>
