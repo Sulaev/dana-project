@@ -3,7 +3,7 @@ import BigArrow from "@/assets/bigArrow.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-const ProjectConst = [
+const ProjectList = [
   {
     title: "Miaria",
     description: "Креативное агенство в Италии",
@@ -41,7 +41,7 @@ export default function ProjecctSection() {
     <div className="py-10 flex flex-col gap-16">
       <div className="text-7xl font-medium">Проекты</div>
       <div className="flex flex-wrap w-full gap-14">
-        {ProjectConst.map((project) => (
+        {ProjectList.map((project) => (
           <Link href={project.link} key={project.title}>
             <Image
               src={project.baner}
