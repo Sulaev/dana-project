@@ -16,7 +16,7 @@ export default function HeroSection() {
       </div>
       <div className="mx-auto px-4 flex flex-col py-10 gap-11 w-full">
         <div className="flex justify-start ">
-          <h1 className="text-7xl font-medium mb-4 leading-tight">
+          <h1 className="text-7xl font-medium mb-4">
             Встречают по одежке,
             <br /> провожают по уму
           </h1>

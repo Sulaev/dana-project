@@ -36,7 +36,7 @@ const ProjectList = [
   },
 ];
 
-export default function ProjecctSection() {
+export default function ProjectSection() {
   return (
     <div className="py-10 flex flex-col gap-16">
       <div className="text-7xl font-medium">Проекты</div>
