@@ -13,13 +13,13 @@ const ntSomic = localFont({
       weight: "400",
       style: "normal",
     },
-    // Подключаем Bold, если нужно
+
     {
       path: "../../public/fonts/NTSomic-Bold.ttf",
       weight: "700",
       style: "normal",
     },
-    // Подключаем Medium, если нужно
+
     {
       path: "../../public/fonts/NTSomic-Medium.ttf",
       weight: "500",
@@ -27,7 +27,7 @@ const ntSomic = localFont({
     },
   ],
   display: "swap",
-  variable: "--font-nt-somic", // CSS-переменная
+  variable: "--font-nt-somic",
 });
 
 export const metadata: Metadata = {
