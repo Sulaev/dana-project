@@ -1,6 +1,7 @@
 import BlogSection from "../block/blogSection";
 import HeroSection from "../block/heroSection";
-import ProjecctSection from "../block/projectSection";
+import ProjectSection from "../block/projectSection";
+import QuestionSection from "../block/questionSection";
 import ServicesSection from "../block/servicesSection";
 
 export default function Home() {
@@ -8,8 +9,9 @@ export default function Home() {
     <>
       <HeroSection />
       <ServicesSection />
-      <ProjecctSection />
+      <ProjectSection />
       <BlogSection />
+      <QuestionSection />
     </>
   );
 }
