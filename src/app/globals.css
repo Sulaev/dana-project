@@ -3,6 +3,20 @@
 
 @custom-variant dark (&:is(.dark *));
 
+body {
+  font-family: var(--font-nt-somic), sans-serif;
+}
+
+.medium-text {
+  font-family: var(--font-nt-somic);
+  font-weight: 500;
+}
+
+.bold-text {
+  font-family: var(--font-nt-somic);
+  font-weight: 700;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

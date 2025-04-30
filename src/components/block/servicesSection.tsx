@@ -3,19 +3,19 @@ import Arrow from "@/assets/arrow.svg";
 
 const ServicesList = [
   {
-    tittle: "Фирменный стиль",
+    title: "Фирменный стиль",
     link: "/",
   },
   {
-    tittle: "Нейминг",
+    title: "Нейминг",
     link: "/",
   },
   {
-    tittle: "Логотип",
+    title: "Логотип",
     link: "/",
   },
   {
-    tittle: "Полиграфия",
+    title: "Полиграфия",
     link: "/",
   },
 ];
@@ -24,14 +24,14 @@ export default function ServicesSection() {
   return (
     <div className="flex flex-col gap-16 w-full px-4 py-20">
       <div className="flex justify-start">
-        <h1 className="text-7xl">Услуги</h1>
+        <h1 className="text-7xl font-medium">Услуги</h1>
       </div>
       <div className="flex flex-col gap-14">
         {ServicesList.map((tag) => {
           return (
-            <Link href={tag.link} key={tag.tittle}>
+            <Link href={tag.link} key={tag.title}>
               <div className="text-4xl border-b-3 border-accent pb-7 flex justify-between items-center">
-                {tag.tittle}
+                {tag.title}
                 <Arrow />
               </div>
             </Link>

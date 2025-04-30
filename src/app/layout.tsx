@@ -1,18 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Layout } from "@/components/layout";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const ntSomic = localFont({
+  src: [
+    {
+      path: "../../public/fonts/NTSomic-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    // Подключаем Bold, если нужно
+    {
+      path: "../../public/fonts/NTSomic-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    // Подключаем Medium, если нужно
+    {
+      path: "../../public/fonts/NTSomic-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+  display: "swap",
+  variable: "--font-nt-somic", // CSS-переменная
 });
 
 export const metadata: Metadata = {
@@ -26,10 +41,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${ntSomic.variable}`}>
+      <body className={`${ntSomic.className} antialiased`}>
         <Header />
         <Layout>{children}</Layout>
         <Footer />
