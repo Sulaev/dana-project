@@ -1,8 +1,8 @@
-import BlogSection from "../block/blogSection";
-import HeroSection from "../block/heroSection";
-import ProjectSection from "../block/projectSection";
-import QuestionSection from "../block/questionSection";
-import ServicesSection from "../block/servicesSection";
+import BlogSection from "../blocks/blogSection";
+import HeroSection from "../blocks/heroSection";
+import ProjectSection from "../blocks/projectSection";
+import QuestionSection from "../blocks/questionSection";
+import ServicesSection from "../blocks/servicesSection";
 
 export default function Home() {
   return (
