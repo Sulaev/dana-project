@@ -1,4 +1,4 @@
 export const ROUTES = {
   home: "/home",
-  services: "/services",
+  services: "/home/services",
 };
