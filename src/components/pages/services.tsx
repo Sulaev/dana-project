@@ -1,3 +1,11 @@
+import ServicesTittle from "../blocks/services/services";
+import ServicesSection from "../blocks/servicesSection";
+
 export default function Services() {
-  return <div>Hello</div>;
+  return (
+    <>
+      <ServicesTittle />
+      <ServicesSection />
+    </>
+  );
 }
