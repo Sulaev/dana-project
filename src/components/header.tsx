@@ -18,7 +18,7 @@ const Navbar = [
   },
   {
     tittle: "Блог",
-    link: "/",
+    link: ROUTES.blog,
   },
   {
     tittle: "Контакты",
